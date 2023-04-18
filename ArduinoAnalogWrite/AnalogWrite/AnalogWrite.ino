@@ -4,7 +4,7 @@
 
 // declare variables
 int pin6 = 6;
-int level1 = 8;
+int level1 = 0;
 int level2 = 32;
 int level3 = 64;
 int level4 = 128;
@@ -32,5 +32,5 @@ void loop() {
 
 void turnLEDIntensity(int level) {
   analogWrite(pin6, level);
-  delay(500);
+  delay(1000);
 }
